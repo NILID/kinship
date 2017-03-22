@@ -11,7 +11,8 @@
 
 FactoryGirl.define do
   factory :person do
-    given_name "MyString"
-    family_name "MyString"
+    # The second one represents a middle name; faker doesn't have something for that
+    given_name { "#{Faker::Name.first_name} #{Faker::Name.first_name}" }
+    family_name { Faker::Name.last_name }
   end
 end

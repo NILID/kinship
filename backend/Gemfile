@@ -34,6 +34,8 @@ group :development, :test do
   gem 'rspec-rails'
   # Use factory girl for fixtures
   gem 'factory_girl_rails'
+  # For generating seed/test data
+  gem 'faker'
   # Use database cleaner for cleaning the database
   gem 'database_cleaner'
   # Call 'binding.pry' anywhere in the code to stop execution and get a debugger console
