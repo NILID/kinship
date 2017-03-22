@@ -12,6 +12,6 @@
 FactoryGirl.define do
   factory :person do
     given_name "MyString"
-    surname "MyString"
+    family_name "MyString"
   end
 end

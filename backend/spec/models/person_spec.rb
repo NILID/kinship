@@ -12,6 +12,7 @@
 require 'rails_helper'
 
 describe Person do
+  subject { create(:person) }
   it { is_expected.to respond_to(:given_name) }
   it { is_expected.to respond_to(:family_name) }
 end
