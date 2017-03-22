@@ -10,6 +10,7 @@ gem 'unicorn'
 # Use Taperole for deployment
 gem 'taperole'
 gem 'devise_token_auth'
+gem 'annotate'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
