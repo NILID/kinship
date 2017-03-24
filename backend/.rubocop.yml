@@ -6,6 +6,7 @@ AllCops:
     - "bin/*"
     - "lib/files/cucumber.rake"
     - "lib/tasks/*"
+    - "spec/**/*"
   UseCache: false
 Bundler/OrderedGems:
   Enabled: false
